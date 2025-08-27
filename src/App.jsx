@@ -4,16 +4,16 @@ import React, { useState } from "react";
 function App() {
   const [value, setValue] = useState(0);
 
-  // Calculation results
-  const addOne = value + 1;
+  // Calculation helpers
   const cubed = value ** 3;
   const multiplyByThree = value * 3;
+  const addOne = value + 1;
   const squareRoot = Math.sqrt(value);
 
   return (
     <div>
       <main>
-        {/* Heading matches the test */}
+        {/* */}
         <h1>Multi-Calc</h1>
 
         <form
